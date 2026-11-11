@@ -1,0 +1,18 @@
+{
+  "name": "react-email-outlook-double-brace-repro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal reproduction: Outlook.com drops every <Tailwind> media query after the first, because react-email's generated CSS has adjacent closing braces",
+  "scripts": {
+    "render": "tsx render.tsx"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-email": "6.11.11"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0"
+  }
+}
